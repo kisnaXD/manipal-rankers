@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Rank Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen">
+        <h2>Loading Ranks 🚀</h2>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1 class="title">Enter your <span class="typewriter">details</span></h1>
+        <div class="input-section">
+            <div class="custom-dropdown">
+                <div class="dropdown-selected">Name</div>
+                <div class="dropdown-options">
+                    <div class="option" data-value="name">Name</div>
+                    <div class="option" data-value="roll">Roll Number</div>
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" class="text-input" placeholder="Enter here...">
+                <div class="search-results"></div>
+            </div>
+        </div>
+        <button class="enter-btn">Enter</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
